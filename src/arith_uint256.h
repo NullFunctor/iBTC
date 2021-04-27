@@ -286,4 +286,6 @@ public:
 uint256 ArithToUint256(const arith_uint256 &);
 arith_uint256 UintToArith256(const uint256 &);
 
+uint32_t get_32bit_word_from_uint256(const uint256 &a);
+
 #endif // BITCOIN_ARITH_UINT256_H

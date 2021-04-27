@@ -206,3 +206,11 @@ deterministic. Here's how it works:
 - Builders feed the unsigned app + detached signature back into Gitian. It uses the
   pre-built tools to recombine the pieces into a deterministic DMG.
 
+Portable MAC build
+-------------------
+cd depends
+make
+cd ..
+./autogen.sh
+./configure --enable-glibc-back-compat --prefix=`pwd`/depends/x86_64-apple-darwin14 LDFLAGS="-static-libstdc++"
+make

@@ -2038,7 +2038,7 @@
     </message>
     <message>
         <source>Outbound</source>
-        <translation>Ausgehend</translation>
+        <translation>ausgehend</translation>
     </message>
     <message>
         <source>Yes</source>

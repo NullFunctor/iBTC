@@ -1,10 +1,15 @@
-Bitcoin Core integration/staging tree
+iBTC Core integration/staging tree
 =====================================
 
-https://bitcoincore.org
+http://www.iBTC.network
 
-What is Bitcoin?
+What is iBTC?
 ----------------
+
+iBTC aims to be a more decentralized version of Bitcoin. This is accomplished 
+using Satoshi's Missing Link - VBR Decentralization Algorithm. 
+The Variable Block Reward (VBR) feature is the engine behind promoting more 
+decentralization.
 
 Bitcoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
@@ -19,15 +24,15 @@ the Bitcoin Core software, see https://bitcoincore.org/en/download/, or read the
 License
 -------
 
-Bitcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+iBTC Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
 Development Process
 -------------------
 
 The `master` branch is regularly built and tested, but is not guaranteed to be
-completely stable. [Tags](https://github.com/bitcoin/bitcoin/tags) are created
-regularly to indicate new official, stable release versions of Bitcoin Core.
+completely stable. [Tags](https://github.com/NullFunctor/iBTC/tags) are created
+regularly to indicate new official, stable release versions of iBTC Core.
 
 The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md)
 and useful hints for developers can be found in [doc/developer-notes.md](doc/developer-notes.md).
@@ -59,7 +64,6 @@ Changes should be tested by somebody other than the developer who wrote the
 code. This is especially important for large or high-risk changes. It is useful
 to add a test plan to the pull request description if testing the changes is
 not straightforward.
-
 Translations
 ------------
 

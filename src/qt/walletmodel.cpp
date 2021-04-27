@@ -77,18 +77,21 @@ void WalletModel::pollBalanceChanged()
     // rescan.
     interfaces::WalletBalances new_balances;
     int numBlocks = -1;
-    if (!m_wallet->tryGetBalances(new_balances, numBlocks, fForceCheckBalanceChanged, cachedNumBlocks)) {
+    if (!m_wallet->tryGetBalances(new_balances, numBlocks)) {
         return;
     }
 
-    fForceCheckBalanceChanged = false;
+    if(fForceCheckBalanceChanged || m_node.getNumBlocks() != cachedNumBlocks)
+    {
+        fForceCheckBalanceChanged = false;
 
-    // Balance and number of transactions might have changed
-    cachedNumBlocks = numBlocks;
+        // Balance and number of transactions might have changed
+        cachedNumBlocks = m_node.getNumBlocks();
 
-    checkBalanceChanged(new_balances);
-    if(transactionTableModel)
-        transactionTableModel->updateConfirmations();
+        checkBalanceChanged(new_balances);
+        if(transactionTableModel)
+            transactionTableModel->updateConfirmations();
+    }
 }
 
 void WalletModel::checkBalanceChanged(const interfaces::WalletBalances& new_balances)

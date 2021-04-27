@@ -701,7 +701,7 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Bitcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "iBTC";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -711,10 +711,10 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
-    return pathRet / "Library/Application Support/Bitcoin";
+    return pathRet / "Library/Application Support/iBTC";
 #else
     // Unix
-    return pathRet / ".bitcoin";
+    return pathRet / ".iBTC";
 #endif
 #endif
 }
@@ -1236,10 +1236,9 @@ int ScheduleBatchPriority()
 {
 #ifdef SCHED_BATCH
     const static sched_param param{};
-    const int rc = pthread_setschedparam(pthread_self(), SCHED_BATCH, &param);
-    if (rc != 0) {
-        LogPrintf("Failed to pthread_setschedparam: %s\n", strerror(rc));
-        return rc;
+    if (int ret = pthread_setschedparam(pthread_self(), SCHED_BATCH, &param)) {
+        LogPrintf("Failed to pthread_setschedparam: %s\n", strerror(errno));
+        return ret;
     }
     return 0;
 #else

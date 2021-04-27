@@ -1,5 +1,5 @@
 *.tar.gz
-
+.vscode/ipch/*
 *.exe
 *.pdb
 src/bitcoin
@@ -10,6 +10,7 @@ src/bitcoin-wallet
 src/test/test_bitcoin
 src/test/test_bitcoin_fuzzy
 src/qt/test/test_bitcoin-qt
+src/obj
 
 # autoreconf
 Makefile.in

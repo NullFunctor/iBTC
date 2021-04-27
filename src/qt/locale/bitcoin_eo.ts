@@ -132,10 +132,6 @@
         <translation>Ripetu la novan pasfrazon</translation>
     </message>
     <message>
-        <source>Show passphrase</source>
-        <translation>Montri pasfrazon</translation>
-    </message>
-    <message>
         <source>Encrypt wallet</source>
         <translation>Ĉifri la monujon</translation>
     </message>
@@ -176,26 +172,6 @@
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
-        <source>Enter the new passphrase for the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
-        <translation>Enigi la novan pasfrazon por la monujo. &lt;br/&gt;Bonvolu uzi pasfrazon de &lt;b&gt;dek aŭ pli hazardaj signoj&lt;/b&gt;, aŭ &lt;b&gt;ok aŭ pli vortoj&lt;/b&gt;.</translation>
-    </message>
-    <message>
-        <source>Enter the old passphrase and new passphrase for the wallet.</source>
-        <translation>Enigi la malnovan pasfrazon kaj la novan pasfrazon por la monujo.</translation>
-    </message>
-    <message>
-        <source>Wallet to be encrypted</source>
-        <translation>Monujo ĉifriĝota</translation>
-    </message>
-    <message>
-        <source>Your wallet is about to be encrypted. </source>
-        <translation>Via monujo estas ĉifriĝota.</translation>
-    </message>
-    <message>
-        <source>Your wallet is now encrypted. </source>
-        <translation>Via monujo ĵus estas ĉifrata.</translation>
-    </message>
-    <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
         <translation>GRAVE: antaŭaj sekur-kopioj de via monujo-dosiero estas forigindaj kiam vi havas nove kreitan ĉifritan monujo-dosieron. Pro sekureco, antaŭaj kopioj de la neĉifrita dosiero ne plu funkcios tuj kiam vi ekuzos la novan ĉifritan dosieron.</translation>
     </message>
@@ -234,11 +210,7 @@
 </context>
 <context>
     <name>BanTableModel</name>
-    <message>
-        <source>Banned Until</source>
-        <translation>Ekzilita ĝis</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>BitcoinGUI</name>
     <message>
@@ -278,10 +250,6 @@
         <translation>&amp;Pri %1</translation>
     </message>
     <message>
-        <source>Show information about %1</source>
-        <translation>Montri informojn pri %1</translation>
-    </message>
-    <message>
         <source>About &amp;Qt</source>
         <translation>Pri &amp;Qt</translation>
     </message>
@@ -292,10 +260,6 @@
     <message>
         <source>&amp;Options...</source>
         <translation>&amp;Agordoj...</translation>
-    </message>
-    <message>
-        <source>Modify configuration options for %1</source>
-        <translation>Ŝanĝi agordojn por %1</translation>
     </message>
     <message>
         <source>&amp;Encrypt Wallet...</source>
@@ -312,30 +276,6 @@
     <message>
         <source>Open &amp;URI...</source>
         <translation>Malfermi &amp;URI-on...</translation>
-    </message>
-    <message>
-        <source>Create Wallet...</source>
-        <translation>Krei Monujon...</translation>
-    </message>
-    <message>
-        <source>Create a new wallet</source>
-        <translation>Krei novan monujon</translation>
-    </message>
-    <message>
-        <source>Wallet:</source>
-        <translation>Monujo:</translation>
-    </message>
-    <message>
-        <source>Click to disable network activity.</source>
-        <translation>Alklaki por malebligi retan aktivon.</translation>
-    </message>
-    <message>
-        <source>Network activity disabled.</source>
-        <translation>Retaj agadoj malebliĝas.</translation>
-    </message>
-    <message>
-        <source>Click to enable network activity again.</source>
-        <translation>Alklaki por denove ebligi retajn agadojn.</translation>
     </message>
     <message>
         <source>Reindexing blocks on disk...</source>
@@ -458,48 +398,12 @@
         <translation>Ĝisdata</translation>
     </message>
     <message>
-        <source>Open Wallet</source>
-        <translation>Malfermi la Monujon</translation>
-    </message>
-    <message>
-        <source>Open a wallet</source>
-        <translation>Malfermi monujon</translation>
-    </message>
-    <message>
-        <source>Close Wallet...</source>
-        <translation>Fermi la Monujon...</translation>
-    </message>
-    <message>
-        <source>Close wallet</source>
-        <translation>Fermi monujon</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>defaŭlta monujo</translation>
-    </message>
-    <message>
         <source>&amp;Window</source>
         <translation>&amp;Fenestro</translation>
     </message>
     <message>
-        <source>Zoom</source>
-        <translation>Zomi</translation>
-    </message>
-    <message>
-        <source>Main Window</source>
-        <translation>Ĉefa Fenestro</translation>
-    </message>
-    <message>
         <source>Catching up...</source>
         <translation>Ĝisdatigante...</translation>
-    </message>
-    <message>
-        <source>Error: %1</source>
-        <translation>Eraro: %1</translation>
-    </message>
-    <message>
-        <source>Warning: %1</source>
-        <translation>Averta: %1</translation>
     </message>
     <message>
         <source>Date: %1
@@ -512,11 +416,6 @@
 </source>
         <translation>Sumo: %1
 </translation>
-    </message>
-    <message>
-        <source>Wallet: %1
-</source>
-        <translation>Monujo: %1</translation>
     </message>
     <message>
         <source>Type: %1
@@ -555,10 +454,6 @@
     </context>
 <context>
     <name>CoinControlDialog</name>
-    <message>
-        <source>Coin Selection</source>
-        <translation>Monero-Elektaĵo</translation>
-    </message>
     <message>
         <source>Quantity:</source>
         <translation>Kvanto:</translation>
@@ -670,43 +565,10 @@
     </context>
 <context>
     <name>CreateWalletActivity</name>
-    <message>
-        <source>Create wallet failed</source>
-        <translation>Krei monujon malsukcesis</translation>
-    </message>
-    <message>
-        <source>Create wallet warning</source>
-        <translation>Averto pro krei monujon</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>CreateWalletDialog</name>
-    <message>
-        <source>Create Wallet</source>
-        <translation>Krei Monujon</translation>
-    </message>
-    <message>
-        <source>Wallet Name</source>
-        <translation>Monujo-Nomo</translation>
-    </message>
-    <message>
-        <source>Encrypt Wallet</source>
-        <translation>Ĉifri Monujon</translation>
-    </message>
-    <message>
-        <source>Disable private keys for this wallet. Wallets with private keys disabled will have no private keys and cannot have an HD seed or imported private keys. This is ideal for watch-only wallets.</source>
-        <translation>Malebligi privatajn ŝlosilojn por ĉi tiu monujo. Monujoj kun malebligitaj privataj ŝlosiloj ne havos privatajn ŝlosilojn, kaj povas havi nek HD-semon nek importatajn privatajn ŝlosilojn. Ĉi tio estas ideale por nurspektaj monujoj.
-</translation>
-    </message>
-    <message>
-        <source>Disable Private Keys</source>
-        <translation>Malebligi Privatajn Ŝlosilojn</translation>
-    </message>
-    <message>
-        <source>Create</source>
-        <translation>Krei</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>EditAddressDialog</name>
     <message>
@@ -760,10 +622,6 @@
         <translation>versio</translation>
     </message>
     <message>
-        <source>About %1</source>
-        <translation>Pri %1</translation>
-    </message>
-    <message>
         <source>Command-line options</source>
         <translation>Komandliniaj agordaĵoj</translation>
     </message>
@@ -773,10 +631,6 @@
     <message>
         <source>Welcome</source>
         <translation>Bonvenon</translation>
-    </message>
-    <message>
-        <source>Welcome to %1.</source>
-        <translation>Bonvenon al %1.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -806,28 +660,8 @@
         <translation>Formularo</translation>
     </message>
     <message>
-        <source>Unknown...</source>
-        <translation>Nekonata...</translation>
-    </message>
-    <message>
         <source>Last block time</source>
         <translation>Horo de la lasta bloko</translation>
-    </message>
-    <message>
-        <source>Progress</source>
-        <translation>Progreso</translation>
-    </message>
-    <message>
-        <source>Progress increase per hour</source>
-        <translation>Hora pligrandigo da progreso</translation>
-    </message>
-    <message>
-        <source>calculating...</source>
-        <translation>kalkuladas...</translation>
-    </message>
-    <message>
-        <source>Hide</source>
-        <translation>Kaŝi</translation>
     </message>
     </context>
 <context>
@@ -851,23 +685,7 @@
     </context>
 <context>
     <name>OpenWalletActivity</name>
-    <message>
-        <source>Open wallet failed</source>
-        <translation>Malfermi monujon malsukcesis</translation>
-    </message>
-    <message>
-        <source>Open wallet warning</source>
-        <translation>Malfermi monujon averto</translation>
-    </message>
-    <message>
-        <source>default wallet</source>
-        <translation>defaŭlta monujo</translation>
-    </message>
-    <message>
-        <source>Opening Wallet &lt;b&gt;%1&lt;/b&gt;...</source>
-        <translation>Malfermadas Monujon &lt;b&gt;%1&lt;/b&gt;...</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>OptionsDialog</name>
     <message>
@@ -879,24 +697,8 @@
         <translation>Ĉ&amp;efa</translation>
     </message>
     <message>
-        <source>Automatically start %1 after logging in to the system.</source>
-        <translation>Aŭtomate komenci na %1 post ensalutis en la sistemon.</translation>
-    </message>
-    <message>
-        <source>&amp;Start %1 on system login</source>
-        <translation>&amp;Komenci na %1 kiam ensaluti en la sistemon</translation>
-    </message>
-    <message>
         <source>Size of &amp;database cache</source>
         <translation>Dosiergrando de &amp;datumbasa kaŝmemoro</translation>
-    </message>
-    <message>
-        <source>Number of script &amp;verification threads</source>
-        <translation>Kvanto da skriptaj kaj kontroleraraj fadenoj</translation>
-    </message>
-    <message>
-        <source>IP address of the proxy (e.g. IPv4: 127.0.0.1 / IPv6: ::1)</source>
-        <translation>IP-adreso de prokurilo (ekz. IPv4: 127.0.0.1 / IPv6: ::1)</translation>
     </message>
     <message>
         <source>Reset all client options to default.</source>
@@ -1022,10 +824,6 @@
         <translation>Eblas, ke la informoj videblaj ĉi tie estas eksdataj. Via monujo aŭtomate sinkoniĝas kun la bitmona reto kiam ili konektiĝas, sed tiu procezo ankoraŭ ne finfariĝis.</translation>
     </message>
     <message>
-        <source>Available:</source>
-        <translation>Disponebla:</translation>
-    </message>
-    <message>
         <source>Your current spendable balance</source>
         <translation>via aktuala elspezebla saldo</translation>
     </message>
@@ -1127,10 +925,6 @@
         <translation>Eraro: la elektita dosierujo por datumoj "%1" ne ekzistas.</translation>
     </message>
     <message>
-        <source>Error: %1</source>
-        <translation>Eraro: %1</translation>
-    </message>
-    <message>
         <source>unknown</source>
         <translation>nekonata</translation>
     </message>
@@ -1197,10 +991,6 @@
         <translation>Aktuala nombro de blokoj</translation>
     </message>
     <message>
-        <source>Wallet: </source>
-        <translation>Monujo:</translation>
-    </message>
-    <message>
         <source>Received</source>
         <translation>Ricevita</translation>
     </message>
@@ -1264,35 +1054,7 @@
         <source>Clear console</source>
         <translation>Malplenigi konzolon</translation>
     </message>
-    <message>
-        <source>1 &amp;hour</source>
-        <translation>1 &amp;horo</translation>
-    </message>
-    <message>
-        <source>1 &amp;day</source>
-        <translation>1 &amp;tago</translation>
-    </message>
-    <message>
-        <source>1 &amp;week</source>
-        <translation>1 &amp;semajno</translation>
-    </message>
-    <message>
-        <source>1 &amp;year</source>
-        <translation>1 &amp;jaro</translation>
-    </message>
-    <message>
-        <source>&amp;Unban</source>
-        <translation>&amp;Malekzili</translation>
-    </message>
-    <message>
-        <source>never</source>
-        <translation>neniam</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Nekonata</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>ReceiveCoinsDialog</name>
     <message>
@@ -1457,10 +1219,6 @@
         <translation>Krompago:</translation>
     </message>
     <message>
-        <source>Hide</source>
-        <translation>Kaŝi</translation>
-    </message>
-    <message>
         <source>Send to multiple recipients at once</source>
         <translation>Sendi samtempe al pluraj ricevantoj</translation>
     </message>
@@ -1535,10 +1293,6 @@
     <message>
         <source>Transaction fee</source>
         <translation>Krompago</translation>
-    </message>
-    <message>
-        <source>Total Amount</source>
-        <translation>Totala Sumo</translation>
     </message>
     <message>
         <source>Confirm send coins</source>
@@ -2089,10 +1843,6 @@
     </context>
 <context>
     <name>WalletController</name>
-    <message>
-        <source>Close wallet</source>
-        <translation>Fermi monujon</translation>
-    </message>
     </context>
 <context>
     <name>WalletFrame</name>
@@ -2103,11 +1853,7 @@
         <source>Send Coins</source>
         <translation>Sendi Bitmonon</translation>
     </message>
-    <message>
-        <source>default wallet</source>
-        <translation>defaŭlta monujo</translation>
-    </message>
-</context>
+    </context>
 <context>
     <name>WalletView</name>
     <message>

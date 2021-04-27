@@ -7,7 +7,7 @@
     </message>
     <message>
         <source>Create a new address</source>
-        <translation>Stwórz nowy adres</translation>
+        <translation>Utwórz nowy adres</translation>
     </message>
     <message>
         <source>&amp;New</source>
@@ -1039,7 +1039,7 @@
     </message>
     <message>
         <source>Unknown...</source>
-        <translation>Nieznany...</translation>
+        <translation>Nienznane...</translation>
     </message>
     <message>
         <source>Last block time</source>

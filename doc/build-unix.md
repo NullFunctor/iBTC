@@ -298,5 +298,13 @@ To build executables for ARM:
     ./configure --prefix=$PWD/depends/arm-linux-gnueabihf --enable-glibc-back-compat --enable-reduce-exports LDFLAGS=-static-libstdc++
     make
 
+Portable Linux build
+ -------------------
+ 	cd depends
+ 	make
+ 	cd ..
+ 	./autogen.sh
+ 	./configure --enable-glibc-back-compat --prefix=$PWD/depends/x86_64-pc-linux-gnu LDFLAGS="-static-libstdc++"
+ 	make
 
 For further documentation on the depends system see [README.md](../depends/README.md) in the depends directory.

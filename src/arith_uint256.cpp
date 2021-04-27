@@ -259,3 +259,8 @@ arith_uint256 UintToArith256(const uint256 &a)
         b.pn[x] = ReadLE32(a.begin() + x*4);
     return b;
 }
+
+uint32_t get_32bit_word_from_uint256(const uint256 &a)
+{
+    return ReadLE32(a.begin());
+}
